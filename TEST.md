@@ -33,7 +33,15 @@ var_dump($b);
 
 ### 1. Qual a diferença entre `echo` e `print`?
 
-> (Sua resposta aqui.)
+> Echo e print é uma maneira de mostrar um resultado na tela. O echo pode mostrar uma variavel, varias variaveis, pode fazer somas, é como se fosse uma saída. Quando vamos usar o echo junto com varivel, precisamos colocar aspas duplas, pq ele consegue entender que é uma variavel e imprimir o texto com o valor dela. se usar aspas simples ele entende a variavel como um texte normal. O 2 são não funções.
+echo: Com o echo é possivel ultilizar varias strigins.
+echo "hello Word!!", "Olá mundo!!";
+vai imprimir na tela.
+
+ Print: so aceita 1 argumento e sempre retorna 1. Pode ultilizaar 1 string.
+print "hello Word!!", "Olá mundo!!";
+
+Parse error: syntax error, unexpected ',' in C:\xampp\htdocs\exemplos\exemplo-001.php on line 3 
 
 ### 2. Qual é a saída do código abaixo? Por quê?
 
@@ -42,7 +50,11 @@ $x = true and false;
 var_dump($x);
 ```
 
-> (Sua resposta aqui.)
+> Vai retornar um: bool(true)
+
+A resposta a cima da um valor true. Por quê? = tem uma procedêcia maior do que and, então a variável $x recebe o valor de true.
+ex: ($x = true) and false 
+
 
 ### 3. Qual é a saída do código abaixo? Por quê?
 
