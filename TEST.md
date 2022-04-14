@@ -70,7 +70,10 @@ $a = array(
 var_dump($a);
 ```
 
-> (Sua resposta aqui.)
+> A variavel $a que é um array na posção [0] você tem o operado ++ que incrementa 1 na equoação, isso faz om o que o valor da posção [0] seja 11, pq 5 + 1 + 1 = 11.
+A chave [1] do arry $a é 7, pois ele conta com os incrementadores passados.
+A chave [2] que é que vale a 1 também leva me conta um incrementador passado, por isso seu valor é 1.
+A chave [3] que é um 5 não leva em conta nenhum dos indrementadores.
 
 ### 4. Quais serão os valores de `$a` e `$b` após a execução do código abaixo? Por quê?
 
@@ -147,7 +150,7 @@ $name = 'John ';
 $name[10] = 'Doe';
 ```
 
-> (Sua resposta aqui.)
+> Na primeira linha codigo, a bvariavel $name vai ter como valor a string john, na segunda linha de codigo na posição [10] a variavel tomara a string doe.
 
 ### 11. Qual será a saída do código abaixo? Por quê?
 
@@ -161,7 +164,11 @@ echo is_float($y);
 echo gettype($y);
 ```
 
-> (Sua resposta aqui.)
+> Na primeira linha de codigo a varaivel $x esta recebendo o valor maximo que o php pode guardar dentro de uma variavel.
+Na segunda linha esta fazendo um echo do tipo da variavel $x, no caso um double + 1.
+Na terça linha de codigo esta fazendo um typecast da variavel $x + 1 transformando esta equoação em um inteiro.
+A variavel $y esta recebendo 1.0. E esta equoando a função is_float que valida se a variavel $y é um float.
+Na linha seguinte a função gettype busca o tipo da variavel $y que no caso é um double.S
 
 ### 12. Qual será o valor de `$x` após a execução do código abaixo? Por quê?
 
@@ -177,4 +184,4 @@ $x = "one" + 1;
 
 Isset: Verifica se a varaivel foi iniciada , se foi declarada anteriormente. Aunica exceção que não atende que não antende a condição do isset é colocar null nunca variavel.
 ex:
-$i = null; 
+$i = null;
